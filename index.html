@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main class="main-wrap">
+        <!-- Beginning header section -->
+        <header class="header-wrap bg-color">
+            <div class="common-wrap clear">
+                <div class="header-inner">
+                    <div class="nav-wrap">
+                        <div class="main-logo">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            </div>
+                            <div class="phn-nav mobi">
+                                <div class="phn-nav-inner"></div>
+                            </div>
+                        </div>
+                        <div class="main-nav-wrap flex">
+                            <nav class="navbar flex">
+                                <ul class="flex">
+                                    <li><a href="#home">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#menu">menu</a></li>
+                                    <li><a href="#products">products</a></li>
+                                    <li><a href="#review">review</a></li>
+                                    <li><a href="#contact">contact</a></li>
+                                    <li><a href="#blogs">blogs</a></li>
+                                </ul>
+                            </nav>
+                            <div class="icon flex">
+                                <a href="#" id="search-btn" class="search-icon"><img src="svgs/search-solid.svg" alt=""></a>
+                                <a href="#" id="cart-btn"><img src="svgs/shopping-cart-solid.svg" alt=""></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#" method="post">
+                        <div class="search-form">
+                            <input type="search" placeholder="search here...">
+                        </div>
+                    </form>
+                    <div class="cart-items-container">
+                        <div class="cart-close">
+                            <img src="svgs/times-circle-solid.svg" alt="expand">
+                        </div>
+                        <div class="cart-item-wrap">
+                            <div class="cart-item flex">
+                                <div class="cart-item-content flex">
+                                    <img src="images/cart-item-1.png" alt="">
+                                    <div class="content">
+                                        <h3>cart item 01</h3>
+                                        <span>&#36;15.99/-</span>
+                                    </div>
+                                </div>
+                                <div class="card-close">
+                                    <img src="svgs/times-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cart-item flex">
+                                <div class="cart-item-content flex">
+                                    <img src="images/cart-item-2.png" alt="">
+                                    <div class="content">
+                                        <h3>cart item 02</h3>
+                                        <span>&#36;15.99/-</span>
+                                    </div>
+                                </div>
+                                <div class="card-close">
+                                    <img src="svgs/times-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cart-item flex">
+                                <div class="cart-item-content flex">
+                                    <img src="images/cart-item-3.png" alt="">
+                                    <div class="content">
+                                        <h3>cart item 03</h3>
+                                        <span>&#36;15.99/-</span>
+                                    </div>
+                                </div>
+                                <div class="card-close">
+                                    <img src="svgs/times-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cart-item flex">
+                                <div class="cart-item-content flex">
+                                    <img src="images/cart-item-4.png" alt="">
+                                    <div class="content">
+                                        <h3>cart item 04</h3>
+                                        <span>&#36;15.99/-</span>
+                                    </div>
+                                </div>
+                                <div class="card-close">
+                                    <img src="svgs/times-solid.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout-wrap">
+                            <div class="total-cost flex">
+                                <h3>Total Cost&nbsp;&equals;</h3>
+                                <span>&#36;63.96</span>
+                            </div>
+                            <div class="card-btn">
+                                <a href="#" class="btn">checkout now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+        <!-- End header section -->
+
+        <section class="main-content-wrap home-section">
+       
+        <!--Beginning hero section-->        
+        <section class="hero-wrap bg-color" id="home">
+            <div class="hero-bg">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/home-img.png" sizes="100vw">
+                    <source media="(max-width: 767px)" srcset="images/home-img-mobi.png" sizes="100vw">
+                    <img src="images/home-img.png" srcset="images/home-img-mobi.png, images/home-img.png" sizes="100vw" alt="hero-bg-image">
+                </picture>
+            </div>
+            <div class="common-wrap clear">
+                <div class="hero-inner">
+                    <div class="hero-content">
+                        <h1>fresh coffee in the morning</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+                        <a href="#" class="btn">get yours now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero section -->
+
+        <!--Beginning about us section--> 
+        <section class="about-us-wrap bg-color" id="about">
+            <div class="common-wrap clear">
+                <div class="about-us-inner">
+                    <div class="heading">
+                        <h2> <span>about</span> us </h2>
+                    </div>
+                    <div class="about-us-item">
+                        <div class="about-us-thumb">
+                            <!-- <figure>
+                                <img src="images/about-img.jpeg" srcset="images/about-img.jpeg 640w, images/about-img.jpeg 1025w, images/about-img.jpeg 1600w" sources="(min-width:1920px)640w, 1025w, 1600w, 100vw" alt="">
+                            </figure> -->
+                            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="width:100% ; object-fit: cover; object-position: center; height: 100%;" class="video-play">
+                                <source src="video/coffee-art.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="about-us-content">
+                            <h3>what makes our coffee special?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+                            <div class="about-us-btn">
+                                <a href="#" class="btn">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End about us section--> 
+
+        <!--Beginning Our Menu section-->
+        <section class="our-menu-wrap bg-color" id="menu">
+            <div class="common-wrap clear">
+                <div class="our-menu-inner">
+                    <div class="heading">
+                        <h2> our <span>menu</span> </h2>
+                    </div>
+                    <div class="our-menu-item-wrap flex">
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-1.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-2.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-3.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-4.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-5.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="our-menu-item flex">
+                            <div class="our-menu-item-thumb flex">
+                                <figure>
+                                    <img src="images/menu-6.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="our-menu-item-content">
+                                <h4>tasty and healty</h4>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                            <div class="our-menu-item-btn">
+                                <a href="#" class="btn hvr-bounce-to-top">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Our Menu section-->
+
+        <!--Beginning Coffee Drink section-->
+        <section class="coffee-drink-wrap bg-color">
+            <div class="common-wrap clear">
+                <div class="coffee-drink-inner">
+                    <div class="coffee-drink-content">
+                        <h2>Type Of <span>Coffee Drink</span> </h2>
+                        <p>Coffee drink names can be tricky and that's why we decided to collect you a alphabetical list of the coffee drinks you might bump into. So here you go: the list of most common coffee drinks!</p>
+                    </div>
+                    <div class="coffee-drink-item flex">
+                        <div class="coffee-drink-item-content">
+                            <div class="item-info">
+                               <h3><a href="#tab-1">Black Coffee</a></h3> 
+                               <div class="coffee-info">
+                                <p>Simply put, black coffee is a combination of water and coffee without any milk. You should serve it without any added flavors such as honey, cream, and milk. The addition of these products changes the aroma and color of the coffee, turning it lighter-brown or white.</p>
+                               </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-2">Espresso</a> </h3>
+                                <div class="coffee-info">
+                                    <p>Espresso is a famous type of coffee from Italy. You make it by forcing high-pressure steam through grounded coffee beans. The final product is a thick coffee with a creamy foam on top. Due to its thickness and high level of caffeine per unit, it is often a base for other coffee drinks such as Americano.</p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-3">Ristretto</a> </h3>
+                                <div class="coffee-info">
+                                    <p>Ristretto, Italian for short, is an espresso shot made like regular espresso but with half the amount of water. The final product is thus a more concentrated shot of espresso with a slightly different taste.</p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-4">Americano</a> </h3>
+                                <div class="coffee-info">
+                                    <p>A caffè Americano is an Italian term for American coffee. It is believed that the name comes from the U.S. soldiers in Italy during the 2nd World War, who used water to ration the scarce amounts of espresso available at the time.</p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-5">Affogato</a> </h3>
+                                <div class="coffee-info">
+                                    <p>An affogato /ˌɑːfəˈɡɑːtəʊ/, /ˌæfəˈɡɑːtəʊ/ or more traditionally known as "affogato al caffe" is an Italian coffee-based dessert. It usually takes the form of a scoop of semisoft cheese-flavored or vanilla gelato or ice cream topped or "drowned" with a shot of hot espresso.. Read our <a href="#blogs">beginners guide to pour over coffee here.</a></p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-6">Drip Coffee</a></h3> 
+                                <div class="coffee-info">
+                                    <p>As the name suggests, drip coffee involves dripping boiling water over ground coffee. The water passes through the filter and into the pot. It is a slower process than making a regular espresso. However, you’ll get a stronger coffee in the end.</p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-7">Caffe Crema</a></h3> 
+                                <div class="coffee-info">
+                                    <p>Caffe crema refers to two different coffee drinks: An old name for espresso. A long espresso drink served primarily in Germany, Switzerland and Austria and northern Italy, along the Italian/Swiss and Italian/Austrian border.</a></p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-8">Flat White</a></h3> 
+                                <div class="coffee-info">
+                                    <p>Flat white is a popular milk-based coffee consisting of espresso with a lower amount of steamed milk. The espresso flavor still dominates the aroma, while the milk serves as a supporting taste. Its not the same thing as a white coffee however <a href="#blogs">(which is a coffee bean originating from Yemen.)</a></p>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-9">Cappuccino</a></h3>
+                                <div class="coffee-info">
+                                    <p>Cappuccino also consists of espresso and milk. However, there are two types of milk here. The beverage contains 1/3 of espresso, 1/3 foamed milk, and 1/3 steamed milk.</p>
+                                </div> 
+                            </div>
+                            <div class="item-info">
+                                <h3><a href="#tab-10">Latte macchiato</a></h3>
+                                <div class="coffee-info">
+                                    <p>Latte macchiato is a coffee beverage; the name means stained or marked milk. Marked as in an espresso stain on the milk used. It is a play on “Espresso macchiato” which is an espresso with a drop or two of milk or cream.</p>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="coffee-drink-item-thumb desk">
+                            <div class="coffee-info-thumb" id="tab-1">
+                                <figure>
+                                    <img src="images/coffee/Black-Coffee.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-2">
+                                <figure>
+                                    <img src="images/coffee/Espresso.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-3">
+                                <figure>
+                                    <img src="images/coffee/Ristretto.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-4">
+                                <figure>
+                                    <img src="images/coffee/Americano.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-5">
+                                <figure>
+                                    <img src="images/coffee/Affogato.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-6">
+                                <figure>
+                                    <img src="images/coffee/Drip-Coffee.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-7">
+                                <figure>
+                                    <img src="images/coffee/Caffe-Crema.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-8">
+                                <figure>
+                                    <img src="images/coffee/Flat-White.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-9">
+                                <figure>
+                                    <img src="images/coffee/Cappuccino.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="coffee-info-thumb" id="tab-10">
+                                <figure>
+                                    <img src="images/coffee/Latte-macchiato.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Coffee Drink section-->
+        
+        <!-- Beginning marque-slider section -->
+        <section class="gallery-wrap">
+            <div class="common-wrap clear">
+                <div class="gallery-slider-wrap" id="marque-slider">
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                    <a href="">Coffee Shop</a>
+                </div>
+            </div>
+        </section>
+        <!-- End marque-slider section -->
+
+        <!-- Beginning video play section -->
+        <section class="parallax-scroll">
+            <div class="common-wrap clear">
+                <div class="parallax-scroll-inner flex">
+                    <h2>Welcome to our <a href="index.html">coffee shop</a></h2>
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-play">
+                        <!-- <source src="video/Coffee-52515.mp4" type="video/mp4"> -->
+                        <source src="video/coffee-shop.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <!-- End video play section -->
+
+        <!--Beginning Our Products section-->
+        <section class="our-products-wrap bg-color" id="products">
+            <div class="common-wrap clear">
+                <div class="our-products-inner">
+                    <div class="heading">
+                        <h2> our <span>products</span> </h2>
+                    </div>
+                    <div class="large-scroll-text" speed=100>
+                        <div class='scrolling-text'>
+                            <h2 class="scrolling-text-content" id="scrollingText"><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em><em> - Our Products </em></h2>
+                        </div>
+                    </div>
+                    <div class="our-products-item-wrap">
+                        <div class="our-products-item flex">
+                            <div class="our-products-item-icons flex">
+                                <a href="#"><img src="svgs/shopping-cart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/heart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/eye-solid.svg" alt=""></a>
+                            </div>
+                            <div class="our-products-item-content">
+                                <p><span>New</span> Product</p>
+                            </div>
+                            <div class="our-products-item-thumb flex">
+                                <figure>
+                                    <img src="images/product-1.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="content">
+                                <h3>fresh coffee</h3>
+                                <div class="stars">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_outline.svg" alt="star">
+                                </div>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                        </div>
+                        <div class="our-products-item flex">
+                            <div class="our-products-item-icons flex">
+                                <a href="#"><img src="svgs/shopping-cart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/heart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/eye-solid.svg" alt=""></a>
+                            </div>
+                            <div class="our-products-item-content">
+                                <p><span>New</span> Product</p>
+                            </div>
+                            <div class="our-products-item-thumb flex">
+                                <figure>
+                                    <img src="images/product-2.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="content">
+                                <h3>fresh coffee</h3>
+                                <div class="stars">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_outline.svg" alt="star">
+                                </div>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                        </div>
+                        <div class="our-products-item flex">
+                            <div class="our-products-item-icons flex">
+                                <a href="#"><img src="svgs/shopping-cart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/heart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/eye-solid.svg" alt=""></a>
+                            </div>
+                            <div class="our-products-item-content">
+                                <p><span>fresh</span></p>
+                            </div>
+                            <div class="our-products-item-thumb flex">
+                                <!-- <figure>
+                                    <img src="images/product-3.png" alt="">
+                                </figure> -->
+                                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="width:100% ; object-fit: cover; object-position: center; height: 250.33px;" class="video-play">
+                                    <source src="video/Coffee-bin.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="content">
+                                <h3>coffee bean</h3>
+                                <div class="stars">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_outline.svg" alt="star">
+                                </div>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                        </div>
+                        <div class="our-products-item flex">
+                            <div class="our-products-item-icons flex">
+                                <a href="#"><img src="svgs/shopping-cart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/heart-solid.svg" alt=""></a>
+                                <a href="#"><img src="svgs/eye-solid.svg" alt=""></a>
+                            </div>
+                            <div class="our-products-item-content">
+                                <p><span>New</span> Product</p>
+                            </div>
+                            <div class="our-products-item-thumb flex">
+                                <figure>
+                                    <img src="images/product-3.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="content">
+                                <h3>fresh coffee</h3>
+                                <div class="stars">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_filled.svg" alt="star">
+                                    <img src="svgs/star_outline.svg" alt="star">
+                                </div>
+                                <p>&#36;15.99 <span>&#36;20.99</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Our Products section-->
+
+        <!--Beginning customer review section-->
+        <section class="review-wrap bg-color" id="review">
+            <div class="common-wrap clear">
+                <div class="review-inner">
+                    <div class="heading">
+                        <h2> customer's <span>review</span> </h2>
+                    </div>
+                    <div class="review-item-wrap flex">
+                        <div class="review-item">
+                            <div class="review-item-image flex">
+                                <figure>
+                                    <img src="images/quote-img.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="review-item-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            </div>
+                            <div class="review-item-thumb">
+                                <figure>
+                                    <img src="images/pic-1.png" class="user" alt="">
+                                </figure>
+                                <figcaption>john deo</figcaption>
+                            </div>
+                            <div class="stars">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_outline.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-item-image flex">
+                                <figure>
+                                    <img src="images/quote-img.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="review-item-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            </div>
+                            <div class="review-item-thumb">
+                                <figure>
+                                    <img src="images/pic-2.png" class="user" alt="">
+                                </figure>
+                                <figcaption>john deo</figcaption>
+                            </div>
+                            <div class="stars">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_outline.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-item-image flex">
+                                <figure>
+                                    <img src="images/quote-img.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="review-item-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            </div>
+                            <div class="review-item-thumb">
+                                <figure>
+                                    <img src="images/pic-3.png" class="user" alt="">
+                                </figure>
+                                <figcaption>john deo</figcaption>
+                            </div>
+                            <div class="stars">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_outline.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="review-item mobi">
+                            <div class="review-item-image flex">
+                                <figure>
+                                    <img src="images/quote-img.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="review-item-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            </div>
+                            <div class="review-item-thumb">
+                                <figure>
+                                    <img src="images/pic-3.png" class="user" alt="">
+                                </figure>
+                                <figcaption>john deo</figcaption>
+                            </div>
+                            <div class="stars">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_filled.svg" alt="star">
+                                <img src="svgs/star_outline.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End customer review section-->
+
+        <!--Beginning contact section-->
+        <section class="contact-wrap bg-color" id="contact">
+            <div class="common-wrap clear">
+                <div class="contact-inner">
+                    <div class="heading">
+                        <h2> <span>contact</span> us </h2>
+                    </div>
+                    <div class="contact-item">
+                        <div class="map-wrap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.524532443824!2d89.93922321537717!3d24.914194949236702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fd7f5ce07e179d%3A0x209802aa6366f9da!2sWebtricker%20Web%20Design%20%26%20Development%20Agency!5e0!3m2!1sen!2sbd!4v1622536833876!5m2!1sen!2sbd" width="100%" height="460px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="form-wrap">
+                            <h3>get in touch</h3>
+                            <form action="#" method="port">
+                                <div class="form-inner flex">
+                                    <div class="inputbox flex">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="inputbox">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <div class="inputbox">
+                                        <input type="number" placeholder="Phone Number">
+                                    </div>
+                                    <div class="submit-btn">
+                                        <input type="submit" value="contact now" class="btn">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End contact section-->
+
+        <!--Beginning blogs section-->
+        <section class="blogs-wrap bg-color" id="blogs">
+            <div class="common-wrap clear">
+                <div class="blogs-inner">
+                    <div class="heading">
+                        <h2> our <span>blogs</span> </h2>
+                    </div>
+                    <div class="blogs-item-wrap flex">
+                        <div class="blogs-item">
+                            <div class="blogs-item-thumb" title="Our Blog">
+                                <figure>
+                                    <img src="images/blog-1.jpeg" alt="">
+                                </figure>
+                            </div>
+                            <div class="blogs-item-content">
+                                <h3>tasty and refreshing coffee</h3>
+                                <span>by admin / 21st may, 2021</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <div class="about-us-btn read">
+                                    <a href="#" class="btn">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blogs-item">
+                            <div class="blogs-item-thumb" title="Our Blog">
+                                <figure>
+                                    <img src="images/blog-2.jpeg" alt="">
+                                </figure>
+                            </div>
+                            <div class="blogs-item-content">
+                                <h3>tasty and refreshing coffee</h3>
+                                <span>by admin / 21st may, 2021</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <div class="about-us-btn read">
+                                    <a href="#" class="btn">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blogs-item">
+                            <div class="blogs-item-thumb" title="Our Blog">
+                                <figure>
+                                    <img src="images/blog-3.jpeg" alt="">
+                                </figure>
+                            </div>
+                            <div class="blogs-item-content">
+                                <h3>tasty and refreshing coffee</h3>
+                                <span>by admin / 21st may, 2021</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <div class="about-us-btn read">
+                                    <a href="#" class="btn">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End blogs section-->
+
+        </section>
+       
+        <!--Beginning footer section-->
+        <footer class="footer-wrap bg-color">
+            <div class="common-wrap clear">
+                <div class="footer-inner">
+                    <div class="wedget-wrap">
+                        <div class="wedget footer-info">
+                            <div class="footer-logo flex">
+                                <figure>
+                                    <a href="index.html"><img src="images/logo.png" alt="footer-logo"></a>
+                                </figure>
+                            </div>
+                            <div class="footer-logo-content">
+                                <h2> <span>Coffee</span> Shop</h2>
+                                <p>We needed to use methods that allow us to make as much coffee as possible for as many people as possible without compromising quality.</p>
+                            </div>
+                        </div>
+                        <div class="wedget pleft">
+                            <h4>Our Pages</h4>
+                            <ul class="flex">
+                                <li><a href="#about">&vrtri;&nbsp;About Us</a></li>
+                                <li><a href="#menu">&vrtri;&nbsp;Our menu</a></li>
+                                <li><a href="#product">&vrtri;&nbsp;Our products</a></li>
+                                <li><a href="#contact">&vrtri;&nbsp;contact Us</a></li>
+                                <li><a href="#blogs">&vrtri;&nbsp;Our blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="wedget pleft">
+                            <h4>Services</h4>
+                            <ul class="flex">
+                                <li><a href="#product">&raquo;&nbsp;Our products</a></li>
+                                <li><a href="#blogs">&raquo;&nbsp;Our blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="wedget p-lr">
+                            <h4>NewsLetter.</h4>
+                            <form action="#" method="port">
+                                <div class="inputbox flex">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="inputbox">
+                                    <input type="email" placeholder="Your Email">
+                                </div>
+                                <div class="submit-btn">
+                                    <input type="submit" value="Send" class="btn">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="copy-right-wrap flex">
+                        <div class="copy-right-content">
+                            <span>© 2014-2021 Webtricker Web Design &amp; Development Agency. All Rights Reserved. </span>
+                        </div>
+                        <div class="terms-policy flex">
+                            <a href="#" class="policy">Privacy & Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </div>
+                        <div class="social-item flex">
+                            <a href="#"><img src="svgs/facebook-f-brands.svg" alt="facebook"></a>
+                            <a href="#"><img src="svgs/twitter-brands.svg" alt="twitter"></a>
+                            <a href="#"><img src="svgs/instagram-brands.svg" alt="instagram"></a>
+                            <a href="#"><img src="svgs/linkedin-brands.svg" alt="linkedin"></a>
+                            <a href="#"><img src="svgs/pinterest-brands.svg" alt="pinterest"></a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="scroll-top" id="button">
+                    <a href=""><img src="svgs/coffee-cup.svg" alt="coffee cup"></a>
+                </div>
+            </div>
+        </footer>
+        <section class="pop-up-wrap">
+            <div class="common-wrap clear">
+                <div class="pop-up-inner flex">
+                    <!-- <div class="pop-up-bg">
+                        <img src="svgs/Hot beverage.gif" alt="coffee cup">
+                    </div> -->
+                    <div class="pop-up-menu flex">
+                        <div class="pop-up-close">
+                            <img src="svgs/times-solid-white.svg" alt="">
+                        </div>
+                        <div class="pop-up-content">
+                            <h3>Stay tuned to get the latest news</h3>
+                            <span></span>
+                        </div>
+                        
+                        <form action="#" method="port">
+                            <div class="form-inner flex">
+                                <div class="inputbox flex">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="inputbox">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="inputbox">
+                                    <input type="number" placeholder="Phone Number">
+                                </div>
+                                <div class="submit-btn">
+                                    <input type="submit" value="contact now" class="btn">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End footer section-->
+
+        <!-- custom js file link  -->
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/common-scripts.js" defer></script> 
+
+    </main>
+</body>
+</html>
